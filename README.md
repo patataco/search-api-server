@@ -12,7 +12,7 @@ Now server is running on http://localhost:4000/sick
 
 `GET /sick?q=담낭`
 
-```json
+```
 HTTP/1.1 200 OK
 Access-Control-Allow-Credentials: true
 Cache-Control: no-cache
@@ -26,6 +26,9 @@ Pragma: no-cache
 Vary: Origin, Accept-Encoding
 X-Content-Type-Options: nosniff
 X-Powered-By: Express
+```
+
+```json
 
 [
     {
