@@ -17,7 +17,7 @@
   ],
   "headers": [
     {
-      "source": "/path-to-your-api-endpoint/(.*)",
+      "source": "/(.*)",
       "headers": [
         { "key": "Access-Control-Allow-Origin", "value": "*" },
         { "key": "Access-Control-Expose-Headers", "value": "ETag" }
