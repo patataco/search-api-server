@@ -14,5 +14,14 @@
       "src": "/(.*)",
       "dest": "server.js"
     }
+  ],
+  "headers": [
+    {
+      "source": "/path-to-your-api-endpoint/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Expose-Headers", "value": "ETag" }
+      ]
+    }
   ]
 }
